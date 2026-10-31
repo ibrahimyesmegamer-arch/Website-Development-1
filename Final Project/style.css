@@ -1,7 +1,7 @@
 body {
     margin: 0;
-    font-family: "Baloo Tamma 2", san-serif;
-    background: #fff;
+    font-family: "Shadows Into Light", cursive;
+    background: #000000;
 }
 
 .navigation {
@@ -26,4 +26,58 @@ body {
 
 .navigation-link:hover {
     color: #f2a900 !important;
+}
+
+.about {
+    background-color: #000000;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.m-heading {
+    font-size: 2.5 rem;
+    font-weight: 700;
+    margin: 20px 0;
+
+}
+
+.btn-outline-warning {
+    border-width: 2px;
+    font-weight: 600;
+    padding: 10px 30px;
+    transition: all 0.3 ease;
+}
+
+.btn-outline-warning:hover {
+
+    background-color: #ff0707;
+    transform: scale(1.05);
+}
+
+
+#projects h1 {
+    font-weight: 900;
+}
+
+.card {
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .35);
+}
+
+.card-img-top {
+    padding: 18px;
+    height: 13rem;
+    object-fit: contain;
+}
+
+.card-text {
+    color: #6f7780;
+    font-size: .85rem;
+}
+
+.btn-warning {
+    font-weight: 700;
+    font-size: .8rem;
+    border-radius: 3px;
 }
